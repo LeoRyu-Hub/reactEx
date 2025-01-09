@@ -15,11 +15,14 @@ import AttendaneBook from './chapter_10/AttendaceBook';
 import SignUp from './chapter_11/SignUp';
 import Cal from './chapter_12/Cal';
 import Ex01 from './Ex/Ex01';
+import ParentComponent from './Ex/Ex02';
+import ProfileCard from './chapter_13/ProfileCard';
+import DarkOrLight from './chapter_14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Ex01 />
+    <DarkOrLight />
   </React.StrictMode>
 );
 
